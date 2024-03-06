@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Column Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 3px;
+            padding:2px;
+            background: linear-gradient(black,white,red,green);
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px;
+        }
+
+        .column {
+            grid-auto-rows:5px;
+            background-color: #f2f2f2;
+            margin-right: 20px;
+            padding: 20px;
+            border-radius:10%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .column:last-child {
+            margin-right: 0;
+        }
+
+        .column h2 {
+            margin-top: 0;
+        }
+
+        .column img {
+            max-width: 100%;
+            display: block;
+            border-radius:10%;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <img src="eagle.jpg" alt="Placeholder Image">
+            <h2>EAGLE</h2>
+            <p>An eagle is a large bird of prey belonging to the family Accipitridae. Eagles are known for their impressive size, powerful build, keen eyesight, and strong beaks and talons. They are apex predators, meaning they are at the top of the food chain in their ecosystems. Eagles are characterized by their broad wings and soaring flight, which allows them to cover vast distances while searching for prey. They typically feed on small mammals, birds, fish, and sometimes carrion. Eagles are found on every continent except Antarctica, and they hold significant cultural and symbolic importance in many societies around the world..</p>
+        </div>
+        <div class="column">
+            <h2>MAN</h2>
+            <img src="gg%20image.jpg" alt="Placeholder Image">
+            <p>"Man" typically refers to an adult human male. However, in a broader sense, "man" can refer to humanity as a whole, encompassing both men and women. In many contexts, "man" has been used historically as a generic term for humankind. It's important to note that the term "man" has been criticized for its gender-specific connotations, and alternative language such as "people" or "humans" is often used to be more inclusive.
+
+
+
+
+.</p>
+        </div>
+        <div class="column">
+            <img src="ii.jpg" alt="Placeholder Image">
+            <h2>STATUE</h2>
+
+            <p>A statue is a three-dimensional sculpture that represents a person, animal, deity, object, or abstract concept. Statues can be made from various materials such as stone, metal, wood, clay, or plastic. They are typically created by artists through processes like carving, modeling, or casting. Statues are often erected as public monuments to commemorate historical figures, events, or ideals, or they may be displayed in museums, parks, or private collections for artistic or cultural appreciation..</p>
+        </div>
+    </div>
+</body>
+</html>
+<center>
+    <form action="savedata .py" method="post" style="text-align:center;background-color:bisque;width:40%;border:2px;color:black;padding:2px;
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+        <label for="email">email:</label><br>
+  <input type="text" id="email" name="email"><br>
+<label>Disability</label>
+<input type="checkbox" name="disability">
+<label> Nationality</label><br>
+        <select>
+            <option>kenyan</option>
+            <option>Tanzania</option>
+        </select><input style="background:pink;"type="submit"name="savedata"
+                 </center>
+        </form>
+
+</form>
+</center>
+
+
